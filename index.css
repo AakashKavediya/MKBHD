@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* ---HEADER------------------------------------------------------------------- */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+}
+
+header #nav1 a i,
+header #nav2 a i {
+    color: white;
+    padding: 5px;
+    margin: 5px;
+    font-size: 20px;
+}
+
+header #nav2 a {
+    color: white;
+    padding: 5px;
+    margin: 5px;
+    font-size: 15px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+#nav1,
+#nav2 {
+    width: 440px;
+}
+
+#nav1 {
+    margin-left: 50px;
+}
+
+
+/* -------main----------------------------------------------- */
+
+main {
+    height: 100vh;
+    background-color: #000;
+    background-size: cover;
+    background-color: rgb(29, 29, 29);
+}
+
+#content center {
+    background-image: url(background1.gif);
+    height: 110vh;
+}
+
+#content center h2 {
+    font-size: 90px;
+    font-style: italic;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: white;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 0px;
+    padding-top: 58vh;
+}
+
+#content center .box {
+    width: 160px;
+    height: 40px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+#content center #boxs {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-evenly;
+    margin-top: 15vh;
+}
+
+#content center .box a {
+    font-family: 'League Gothic', sans-serif;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+}
+
+
+/* -----PRODUCTS----------------------------------- */
+
+#product {
+    background-color: rgb(29, 29, 29);
+    padding: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#product article {
+    height: 550px;
+    width: 520px;
+    background-color: black;
+    border-radius: 15px;
+    transition: .8s;
+    padding: 20px;
+    /* margin: 10px; */
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+#product article img {
+    height: 420px;
+}
+
+#product article i {
+    color: #fff;
+    padding: 12px;
+    transition: .1s;
+    position: absolute;
+    font-size: 20px;
+}
+
+#product article h3 {
+    font-size: medium;
+    color: #fff;
+    font-family: 'League Gothic', sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 16px;
+}
+
+
+/* --PRODUCT------------------------------------- */
+
+#video {
+    padding: 20px;
+    background-color: rgb(29, 29, 29);
+}
+
+nav {
+    display: flex;
+    word-wrap: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    overflow-x: scroll;
+}
+
+#video article i {
+    color: white;
+    font-size: 20px;
+    /* position: absolute; */
+}
+
+#video article {
+    height: 350px;
+    width: 520px;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+}
+
+#video article iframe {
+    height: 200px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+}
